@@ -2,7 +2,7 @@
 
 > Scion for [audrey-two](https://www.npmjs.com/package/audrey-two) VCCLI (View-Control-Command-Line-Interface) ^v2.0.0
 
-![](https://raw.githubusercontent.com/llucbrell/audrey-animation/blob/master/captura.gif) 
+![](https://raw.githubusercontent.com/llucbrell/audrey-animation/master/captura.gif) 
 
 ## What this scion does?
 
