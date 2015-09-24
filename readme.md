@@ -2,7 +2,7 @@
 
 > Scion for [audrey-two](https://www.npmjs.com/package/audrey-two) VCCLI (View-Control-Command-Line-Interface) ^v2.0.0
 
-![](https://github.com/llucbrell/audrey-animation/blob/master/captura.gif) 
+![](https://raw.githubusercontent.com/llucbrell/audrey-animation/blob/master/captura.gif) 
 
 ## What this scion does?
 
@@ -17,7 +17,7 @@ Audrey-two version 2.0.0 change the way of control your CLI-views. The tags, now
 Example
 ```
 $ npm install --save audrey-two
-  npm install --save audrey-animation-header
+  npm install --save audrey-animation
 ```
 ## Usage
 
