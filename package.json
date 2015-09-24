@@ -1,6 +1,6 @@
 {
   "name": "audrey-animation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "audrey scion for animations on the console",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "keywords": [
     "audrey",
+    "audrey-two",
     "controller",
     "vccli",
     "cli",
