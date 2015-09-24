@@ -22,5 +22,14 @@
   "license": "MIT",
   "dependencies": {
     "cli-frames": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llucbrell/audrey-animation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/llucbrell/audrey-animation/issues"
+  },
+  "homepage": "https://github.com/llucbrell/audrey-animation#readme"
 }
