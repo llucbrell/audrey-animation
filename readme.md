@@ -30,7 +30,7 @@ Example
 var myTerminalDisplay={
 	body:["x?animation"], //tell audrey where you want to display it
 	animation:{
-		frames: ["\","|", "/"], 
+		frames: ["x","=", "y"], 
 		delay: 50, //the time audrey wait untill start the animation
 		speed: 250 //the speed of movement between each frame
 	} 
