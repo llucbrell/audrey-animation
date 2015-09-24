@@ -2,7 +2,7 @@
 
 > Scion for [audrey-two](https://www.npmjs.com/package/audrey-two) VCCLI (View-Control-Command-Line-Interface) ^v2.0.0
 
-![](https://raw.githubusercontent.com/llucbrell/audrey-images/master/captura.gif) 
+![](https://github.com/llucbrell/audrey-animation/blob/master/captura.gif) 
 
 ## What this scion does?
 
@@ -24,15 +24,16 @@ $ npm install --save audrey-two
 Example
 
 ```js
+/* frames is an array with string of every frame
+ * remember to format correctly each frame
+ */
 var myTerminalDisplay={
-	body:["x?animation"],//tell audrey where you want to display it
+	body:["x?animation"], //tell audrey where you want to display it
 	animation:{
-		frames: ["\","|", "/"], /*array with string of every frame
-		                         * remember to format correctly each 
-		                         */frame
+		frames: ["\","|", "/"], 
 		delay: 50, //the time audrey wait untill start the animation
 		speed: 250 //the speed of movement between each frame
-	} ,
+	} 
 	};
 
 var audrey2= require('audrey-two');//inicialize audrey
@@ -40,9 +41,10 @@ var audrey= audrey2(myTerminalDisplay);
 
 //run your command and pass error objects to audrey
 
-audrey.seed(["audrey-animation-x?"]);//It's an scion don't forget th "x"
+audrey.seed(["audrey-animation-x?"]); //It's an scion don't forget th "x"
 //tell audrey that there is a new seed
-audrey.encore();//run audrey
+audrey.encore();
+//run audrey
 ```
 
 ## Caveat
