@@ -1,6 +1,6 @@
 {
   "name": "audrey-animation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "audrey scion for animations on the console",
   "main": "index.js",
   "scripts": {
